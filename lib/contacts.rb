@@ -19,8 +19,7 @@ contacts.each do |name, attribute|
   attribute.each do |data, value|
     if data == :favorite_ice_cream_flavors
       value.delete("strawberry")
+      end
     end
   end
-end
-
 end
